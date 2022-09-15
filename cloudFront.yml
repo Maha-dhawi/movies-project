@@ -5,7 +5,7 @@ Resources:
     Properties:
       DistributionConfig:
         Origins:
-        - DomainName: awseb-AWSEB-1T0FW6V2Y012T-1444488474.us-east-1.elb.amazonaws.com
+        - DomainName: EC2Co-EcsEl-1EY9RC78IM3UI-1536900216.us-east-1.elb.amazonaws.com
           Id: mycloudfront
           CustomOriginConfig:
             HTTPPort: '80'
