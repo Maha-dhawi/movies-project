@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('sumbit stack') {
             steps {
-                sh " aws cloudformation create-stack --stack-name movies --template-body file://elasticBeanstalk.yml --region 'us-east-1'"
+                sh " aws cloudformation create-stack --stack-name moviesapp --template-body file://elasticBeanstalk.yml --region 'us-east-1'"
             }
         }
     }
