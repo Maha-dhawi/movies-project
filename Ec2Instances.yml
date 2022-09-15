@@ -4,7 +4,7 @@ Resources:
   OurlovlyServer:
     Type: AWS::EC2::Instance
     Properties:
-      KeyName: Mohammed_key
+      KeyName: ppnm
       ImageId: ami-052efd3df9dad4825 # ImageID valid only in us-east-1 region
       InstanceType: t2.micro
       Tags: 
@@ -28,7 +28,7 @@ Resources:
   ansibleServer:
     Type: AWS::EC2::Instance
     Properties:
-      KeyName: Mohammed_key
+      KeyName: ppnm
       ImageId: ami-052efd3df9dad4825 # ImageID valid only in us-east-1 region
       InstanceType: t2.micro
       Tags: 
