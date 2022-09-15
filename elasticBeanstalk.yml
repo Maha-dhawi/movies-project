@@ -38,7 +38,7 @@ Resources:
     Properties:
       ApplicationName:
         Ref: "moviesApp"
-      EnvironmentName: moviesEnvironment
+      EnvironmentName: moviesEnv
       SolutionStackName: "64bit Amazon Linux 2 v4.2.18 running Tomcat 8.5 Corretto 11"
       OptionSettings:
           - Namespace: aws:elasticbeanstalk:environment
