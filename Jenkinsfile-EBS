@@ -6,11 +6,11 @@ pipeline {
         AWS_ACCESS_KEY_ID     = credentials('AWS_ACCESS_KEY_ID')
         AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
 
-        AWS_S3_BUCKET = "moviesproject"
+        AWS_S3_BUCKET = "moviesprojects3"
         ARTIFACT_NAME = "javabelt-0.0.1-SNAPSHOT.war"
-        AWS_EB_APP_NAME = "moviesApp"
+        AWS_EB_APP_NAME = "moviesAppv1"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
-        AWS_EB_ENVIRONMENT = "moviesEnvironment"
+        AWS_EB_ENVIRONMENT = "moviesEnvi"
 
         // SONAR_IP = "44.202.8.247"
         // SONAR_TOKEN = "sqp_f43d41d13e511dd51d6eca4d26f3318d175ef1d8"
